@@ -1,0 +1,26 @@
+仮想環境立ち上げ(gitbash 実行場所my-todoapp-env/)
+source Script/activate
+
+
+django-admin startproject todoproject
+
+
+(実行場所 todoproject)
+python manage.py startapp todoapp
+
+
+Django立ち上げ(実行場所 todoproject)
+python manage.py runserver
+
+
+python manage.py makemigrations
+
+
+python manage.py migrate
+
+
+python manage.py createsuperuser
+
+
+jdnango管理者ブラウザ
+127.0.0.1:8000/admin
